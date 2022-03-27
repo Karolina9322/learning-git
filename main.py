@@ -1,4 +1,4 @@
-shopping_list = {
+shopping_dict = {
 
 "piekarnia" : ["chleb", "pączek", "bułki"],
 "warzywniak": ["marchew", "seler", "rukola"]
@@ -7,8 +7,8 @@ shopping_list = {
 
 print("Lista zakupów")
 
-for keys, values in shopping_list.items():
+for keys, values in shopping_dict.items():
       print(f"Idę do {keys.title()}, kupuję tu następujące rzeczy: {str(values).title()}")
-      len_values1 = len(shopping_list["piekarnia"])
-      len_values2 = len(shopping_list["warzywniak"])  
+      len_values1 = len(shopping_dict["piekarnia"])
+      len_values2 = len(shopping_dict["warzywniak"])  
 print (f"W sumie kupuję {len_values1 + len_values2} produktów.")
