@@ -9,6 +9,6 @@ print("Lista zakupów")
 
 for keys, values in shopping_list.items():
       print(f"Idę do {keys.title()}, kupuję tu następujące rzeczy: {str(values).title()}")
-      keys1 = len(shopping_list["piekarnia"])
-      keys2 = len(shopping_list["warzywniak"])  
-print (f"W sumie kupuję {keys1+keys2} produktów.")
+      len_values1 = len(shopping_list["piekarnia"])
+      len_values2 = len(shopping_list["warzywniak"])  
+print (f"W sumie kupuję {len_values1 + len_values2} produktów.")
